@@ -1,3 +1,5 @@
+'I have modified the code and used that is borrowed from here https://stackoverflow.com/questions/36524002/how-do-i-play-music-on-loop-in-batch
+
 Set Sound = CreateObject("WMPlayer.OCX.7")
 Sound.URL = ".\danger-alarm.mp3"
 Sound.Controls.play
